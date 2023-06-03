@@ -1,1 +1,197 @@
-[]
+[
+  {
+    "activationRecords": [
+      [
+        [
+          "Green",
+          9
+        ],
+        " smoke",
+        ",",
+        " and",
+        [
+          " yellow",
+          9
+        ],
+        " flames",
+        ",",
+        " and",
+        [
+          " red",
+          9
+        ],
+        " fire",
+        ",",
+        " and",
+        [
+          " black",
+          9
+        ],
+        " ash",
+        ",",
+        " and",
+        " the",
+        " smell",
+        " of",
+        " burning",
+        "."
+      ],
+      [
+        "His",
+        " shoes",
+        " were",
+        [
+          " black",
+          9
+        ],
+        ",",
+        " but",
+        " his",
+        " socks",
+        " were",
+        " bright",
+        [
+          " yellow",
+          10
+        ],
+        "."
+      ],
+      [
+        "On",
+        " a",
+        " run",
+        " down",
+        " ship",
+        ",",
+        " sailing",
+        " a",
+        " wine",
+        [
+          "-dark",
+          7
+        ],
+        " sea",
+        ",",
+        " I",
+        " searched",
+        " for",
+        " the",
+        " island",
+        " of",
+        " my",
+        " birth",
+        "."
+      ],
+      [
+        [
+          "Red",
+          9
+        ],
+        ",",
+        [
+          " yellow",
+          9
+        ],
+        ",",
+        [
+          " orange",
+          9
+        ],
+        ",",
+        [
+          " purple",
+          9
+        ],
+        ":",
+        " the",
+        " diversity",
+        " and",
+        " aroma",
+        " of",
+        " spices",
+        " overwhelmed",
+        " her",
+        " senses",
+        "."
+      ],
+      [
+        "Some",
+        " might",
+        " say",
+        " that",
+        [
+          " turquoise",
+          9
+        ],
+        " is",
+        [
+          " blue",
+          9
+        ],
+        ",",
+        " but",
+        " I",
+        " think",
+        " it",
+        "'s",
+        " more",
+        " of",
+        " a",
+        [
+          " blue",
+          9
+        ],
+        [
+          "-green",
+          9
+        ],
+        "."
+      ],
+      [
+        "With",
+        " the",
+        " dog",
+        " days",
+        " of",
+        " august",
+        " upon",
+        " us",
+        ",",
+        " think",
+        " of",
+        " this",
+        " dog",
+        " of",
+        " a",
+        " book",
+        " as",
+        " the",
+        " literary",
+        " equivalent",
+        " of",
+        " high",
+        " humidity",
+        "."
+      ]
+    ],
+    "choices": [
+      {
+        "is_ground_truth": true,
+        "text": "words related to colors and nothing else"
+      },
+      {
+        "is_ground_truth": false,
+        "text": "adjectives and descriptors in general"
+      },
+      {
+        "is_ground_truth": false,
+        "text": "references to aromas and the sense of smell"
+      },
+      {
+        "is_ground_truth": false,
+        "text": "instances of the words \"red\", \"black\", and \"yellow\""
+      }
+    ],
+    "name": "colors"
+  }
+]
