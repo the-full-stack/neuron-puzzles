@@ -43,6 +43,8 @@ secrets: modal-auth ## pushes secrets from .env to Modal
 	@modal secret create mongodb-neuron-puzzles \
 		MONGODB_USER=$(MONGODB_USER) MONGODB_PASSWORD=$(MONGODB_PASSWORD) \
 		MONGODB_HOST=$(MONGODB_HOST) MONGODB_DBNAME=$(MONGODB_DBNAME)
+	@modal secret create neuron-puzzles-api-keys \
+		API_KEYS=$(API_KEYS)
 
 modal-auth: environment ## authenticates to Modal
 	@$(if $(value MODAL_TOKEN_ID),, \
