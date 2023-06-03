@@ -12,7 +12,7 @@
  |_|     \____//_____/_____|______|______|_____/
 ```
 <div style="align: center">
-  <img src=static/logo.png width=50%></img>
+  <img src=static/assets/logo.jpg width=50%></img>
 </div>
 
 ## Explain simulated language model neuron activations over text passages
