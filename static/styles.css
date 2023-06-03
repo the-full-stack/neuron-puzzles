@@ -89,6 +89,7 @@ video {
 
 body {
   line-height: 1;
+  background-color: #040010;
 }
 
 ol,
@@ -114,6 +115,67 @@ table {
   border-spacing: 0;
 }
 
-#hello {
-  color: red;
+#puzzle-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 20%;
+}
+
+#puzzle-texts > p {
+  padding-right: 0.01rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  font-size: larger;
+  color: aliceblue;
+}
+
+span.tokens {
+}
+
+span.tokens-0 {
+  background-color: rgb(255 145 0 / 0%);
+}
+
+span.tokens-1 {
+  background-color: rgb(255 145 0 / 8%);
+}
+
+span.tokens-2 {
+  background-color: rgb(255 145 0 / 16%);
+}
+
+span.tokens-3 {
+  background-color: rgb(255 145 0 / 24%);
+}
+
+span.tokens-4 {
+  background-color: rgb(255 145 0 / 32%);
+}
+
+span.tokens-5 {
+  background-color: rgb(255 145 0 / 40%);
+}
+
+span.tokens-6 {
+  background-color: rgb(255 145 0 / 48%);
+}
+
+span.tokens-7 {
+  background-color: rgb(255 145 0 / 56%);
+}
+
+span.tokens-8 {
+  background-color: rgb(255 145 0 / 64%);
+}
+
+span.tokens-9 {
+  background-color: rgb(255 145 0 / 72%);
+}
+
+span.tokens-10 {
+  background-color: rgb(255 145 0 / 80%);
 }

@@ -24,6 +24,7 @@ def web():
     from typing import List
 
     from fastapi import FastAPI, Body
+    from fastapi.middleware.cors import CORSMiddleware
     from fastapi.responses import Response
     from fastapi.staticfiles import StaticFiles
     import motor.motor_asyncio
@@ -32,6 +33,14 @@ def web():
     from app.data import models
 
     web_app = FastAPI(title="Neuron Puzzles")
+
+    web_app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
     connection_string = _get_connection_string()
     client = motor.motor_asyncio.AsyncIOMotorClient(connection_string)
     db = client[os.environ["MONGODB_DBNAME"]]
