@@ -1,0 +1,27 @@
+name: update-readme
+
+on:
+  push:
+    paths:
+      - "static/assets/title.txt"
+      - ".RAWREADME.md"
+  # allows this Action to be triggered manually
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run the script
+        run: make readme
+      - name: Commit files
+        run: |
+          git config --local user.name "charlesfrye"
+          git add README.md
+          git commit -m "Updates README"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
